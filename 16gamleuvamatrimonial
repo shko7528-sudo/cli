@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>16 Gam Leuva Matrimonial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #fffaf5;
+      color: #333;
+    }
+
+    header {
+      background-color: #b22222;
+      color: white;
+      padding: 15px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80') center/cover;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.5);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 700px;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      background-color: #ffcc00;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .section {
+      padding: 60px 50px;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 28px;
+      color: #b22222;
+      margin-bottom: 20px;
+    }
+
+    .profiles {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .profile-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+
+    .profile-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #b22222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>16 Gam Leuva Matrimonial</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Register</a>
+      <a href="#">Search</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Find Your Perfect Match Within the Leuva Patel 16 Gam Community</h2>
+      <p>Connecting families and hearts with tradition, trust, and technology.</p>
+      <button>Register Now</button>
+    </div>
+  </section>
+
+  <section class="section">
+    <h3>Featured Profiles</h3>
+    <div class="profiles">
+      <div class="profile-card">
+        <img src="https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?auto=format&fit=crop&w=800&q=80" alt="Profile">
+        <h4>Rahul Patel</h4>
+        <p>Ahmedabad | 28 yrs | Engineer</p>
+      </div>
+      <div class="profile-card">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80" alt="Profile">
+        <h4>Priya Patel</h4>
+        <p>Surat | 26 yrs | Doctor</p>
+      </div>
+      <div class="profile-card">
+        <img src="https://images.unsplash.com/photo-1614288365316-9d4b6f3b73a8?auto=format&fit=crop&w=800&q=80" alt="Profile">
+        <h4>Vivek Patel</h4>
+        <p>Vadodara | 29 yrs | Business</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 16 Gam Leuva Matrimonial. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
